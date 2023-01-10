@@ -1,4 +1,4 @@
-$GITHUB_RUN_NUMBER#!/bin/sh -l
+#!/bin/sh -l
 
 git_setup() {
   cat <<- EOF > $HOME/.netrc
